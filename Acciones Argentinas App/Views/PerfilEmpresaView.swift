@@ -53,6 +53,10 @@ struct PerfilEmpresaView: View {
                     .shadow(color: .gray, radius: 2, x: -2, y: 2)
                     .padding(.bottom)
                     // MARK: Cuadro indicadores financieros
+                    Text("Principales indicadores financieros: ")
+                        .font(.headline)
+                        .padding(.bottom, 1)
+                        .padding(.horizontal)
                     ZStack {
                         Rectangle()
                             .foregroundColor(.white)
@@ -61,46 +65,65 @@ struct PerfilEmpresaView: View {
                             .shadow(color: .gray, radius: 2, x: -2, y: 2)
                         VStack {
                             HStack(spacing: 20) {
-                                
+                                Spacer()
                                 VStack {
-                                    Text("Market cap")
-                                        .font(.headline)
+                                    Text("Market Cap.:")
+                                        .font(.subheadline)
+                                        .bold()
                                         .padding(.bottom, 2)
                                     Text("$ \(activo.currentStock!.marketCap)")
-                                        .font(.subheadline)
+                                        .font(.caption)
                                 }
+                                Spacer()
                                 VStack {
-                                    Text("Ingresos totales")
-                                        .font(.headline)
-                                        .padding(.bottom, 2)
-                                    Text("$ \(activo.currentStock!.ingresosTotales)")
+                                    Text("Rdo. Bruto:")
                                         .font(.subheadline)
+                                        .bold()
+                                        .padding(.bottom, 2)
+                                    Text("$ \(activo.currentStock!.resultadoBruto)")
+                                        .font(.caption)
                                 }
+                                Spacer()
                                 VStack {
-                                    Text("Ingreso neto")
-                                        .font(.headline)
-                                        .padding(.bottom, 2)
-                                    Text("$ \(activo.currentStock!.ingresoNeto)")
+                                    Text("Rdo. Op.:")
                                         .font(.subheadline)
+                                        .bold()
+                                        .padding(.bottom, 2)
+                                    Text("$ \(activo.currentStock!.resultadoOperativo)")
+                                        .font(.caption)
                                 }
+                                Spacer()
                             }
                             .padding(.bottom)
                             HStack(spacing: 20) {
-                                
+                                Spacer()
                                 VStack {
-                                    Text("BPA")
-                                        .font(.headline)
+                                    Text("Rdo. Neto:")
+                                        .font(.subheadline)
+                                        .bold()
+                                        .padding(.bottom, 2)
+                                    Text("$ \(activo.currentStock!.resultadoNeto)")
+                                        .font(.caption)
+                                }
+                                Spacer()
+                                VStack {
+                                    Text("BPA:")
+                                        .font(.subheadline)
+                                        .bold()
                                         .padding(.bottom, 2)
                                     Text("$ \(activo.currentStock!.bpa)")
-                                        .font(.subheadline)
+                                        .font(.caption)
                                 }
+                                Spacer()
                                 VStack {
-                                    Text("EBITDA")
-                                        .font(.headline)
+                                    Text("EBITDA:")
+                                        .font(.subheadline)
+                                        .bold()
                                         .padding(.bottom, 2)
                                     Text("$ \(activo.currentStock!.ebitda)")
-                                        .font(.subheadline)
+                                        .font(.caption)
                                 }
+                                Spacer()
                             }
                         }
                     }

@@ -19,9 +19,9 @@ class Activo: Identifiable, Decodable {
     var descripcion: String
     var productos: [Producto]?
     var marketCap: String
-    var ingresosTotales: String
-    var ingresoBruto: String
-    var ingresoNeto: String
+    var resultadoBruto: String
+    var resultadoOperativo: String
+    var resultadoNeto: String
     var ebitda: String
     var bpa: String
     
