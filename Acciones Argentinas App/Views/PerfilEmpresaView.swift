@@ -92,7 +92,7 @@ struct PerfilEmpresaView: View {
                 }
             }
             .padding()
-            .navigationTitle(activo.currentStock?.ticker ?? "")
+            .navigationTitle(activo.currentStock?.ticker ?? "")            
         }
     }
 }

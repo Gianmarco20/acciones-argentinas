@@ -28,5 +28,6 @@ struct PerfilProductoView: View {
             }
         }
         .navigationTitle(activo.currentProduct?.nombre ?? "")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
