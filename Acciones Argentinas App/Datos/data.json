@@ -1,6 +1,6 @@
 [
     {
-        "nombre": "Aluar Aluminio Argentino S.A",
+        "nombre": "Aluar Aluminio Argentino S.A.",
         "id": 0,
         "ticker": "ALUA",
         "sector": "industrial",
@@ -76,5 +76,26 @@
         "resultadoNeto": "18.987MM",
         "ebitda": "41.560MM",
         "bpa": "6.57"
+    },
+    {
+        "nombre": "BANCO BBVA ARGENTINA S.A.",
+        "id": 1,
+        "ticker": "BBAR",
+        "sector": "bancaria",
+        "panelLider": true,
+        "logo": "bbva",
+        "imagenes": [
+            "bbva",
+            "bbva1",
+            "bbva2"
+        ],
+        "descripcion": "BBVA en Argentina (BBVA), fundado en 1886, es uno de los bancos líderes en el mercado financiero argentino. Su principal accionista desde 1996 es el Grupo BBVA, un grupo financiero global con presencia en España y Portugal, América del Sur, Estados Unidos, México y Turquía. Es un banco universal con presencia en los tres segmentos de mercado: minorista, pequeñas y medianas empresas y grandes corporaciones, a los que les provee servicios financieros y no financieros, incluyendo seguros, asset management y productos y servicios de inversión. El amplio catálogo de soluciones financieras que ofrece a sus clientes, complementado con una estructura diferencial de alianzas y socios estratégicos y la capacidad de aprovechar la experiencia global, las relaciones y la plataforma tecnológica del Grupo BBVA, representan una importante ventaja competitiva en relación a otras compañías del sector financiero. Esta ventaja competitiva le ha permitido a BBVA expandirse y captar nuevos clientes, en un sistema financiero pequeño y fragmentado. BBVA aprovecha su amplia red de distribución multi-canal, con presencia en cada una de las provincias, llegando a atender a un total de 2.5 millones de clientes activos. Dicha red cuenta con 252 sucursales que se enfocan en el segmento minorista y PyMEs. Las grandes corporaciones son atendidas de forma personalizada por la CIB, la cual se divide por sector de industria (Consumo, Industria pesada y Energía). Complementando la red de distribución, BBVA posee bancos en planta, cajeros automáticos y terminales autoservicio, a lo que se suma el servicio de banca telefónica, la moderna y segura plataforma de banca por internet y su aplicación de banca móvil para poder operar desde cualquier lugar, junto con los más de 6.000 empleados disponibles para dar la mejor experiencia al cliente. Sumado a esto, el Banco posee una exclusiva estrategia de partners, incluyendo la alianza con LATAM Airlines, el club Talleres de Córdoba y compañías de seguro como La Caja, junto con la participación accionaria en las compañías automotrices Peugeot, Renault y Volkswagen, lo que permite expandir los puntos de presencia, adquirir clientes de forma más eficiente y mejorar la propuesta de valor de la empresa. BBVA ha realizado inversiones en su red de distribución tanto física como digital, lo que le ha permitido ofrecer una diferenciada, flexible y conveniente experiencia bancaria a sus clientes. Por otro lado, el Banco considera que con su estructura de distribución existente tiene el alcance necesario y la escala para soportar el crecimiento que se espera mientras mejora su eficiencia operativa y crece en el número de clientes y productos en su plataforma. Para guiar la ejecución de la estrategia, el Grupo ha definido un nuevo propósito: “Poner al alcance de todos las oportunidades de esta nueva era” y ha definido seis prioridades estratégicas que son: La mejor experiencia de cliente, ventas digitales, nuevos modelos de negocio, optimización de capital, liderazgo en eficiencia y el mejor equipo. BBVA es una entidad financiera que mira hacia el futuro, íntegra e innovadora, que nació con la misión de financiar los sueños de las personas. Ese espíritu sigue hoy en el grupo y lo anima a transformar la vida de sus clientes, ayudándoles a tomar las mejores decisiones para que cumplan sus sueños, esto significa “Poner al alcance de todos las oportunidades de esta nueva era” y se desarrolla en base a tres valores fundamentales: El cliente es lo primero, pensamos en grande y somos un solo equipo.",
+        "productos": [],
+        "marketCap": "128.045MM",
+        "resultadoBruto": "157.116MM",
+        "resultadoOperativo": "61.091MM",
+        "resultadoNeto": "21.162MM",
+        "ebitda": "50.556MM",
+        "bpa": "34.57"
     }
 ]
