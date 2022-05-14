@@ -16,7 +16,7 @@ struct PerfilProductoView: View {
         ScrollView {
             
             if activo.currentProduct != nil {
-                
+                // MARK: Datos del producto seleccionado
                 VStack {
                     Image(activo.currentProduct!.imagen)
                         .resizable()

@@ -16,13 +16,14 @@ class ActivoModel: ObservableObject {
     
     @Published var currentProduct: Producto?
     var currentProductIndex = 0
-    
+    // MARK: Función dedicada a la obtención y asignación de datos del archivo json
     init() {
         
         activos = DataService.getLocalData()
         
     }
     
+    // MARK: Función dedicada a reconocer la acción seleccionada
     func beginStock(_ stockId: Int) {
         
         for index in 0..<activos.count {
@@ -37,6 +38,7 @@ class ActivoModel: ObservableObject {
         currentStock = activos[currentStockIndex]
     }
     
+    // MARK: Función dedicada a reconocer el producto seleccionado
     func beginProduct(_ productIndex: Int) {
         
         if currentProductIndex < currentStock!.productos.count {

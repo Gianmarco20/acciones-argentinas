@@ -16,7 +16,7 @@ struct ActivosListView: View {
         NavigationView {
             
             List {
-                
+                // MARK: Sección de acciones del panel líder
                 Section(header: Text("Panel Líder")
                     .foregroundColor(.black)) {
                         

@@ -14,7 +14,7 @@ struct PerfilEmpresaView: View {
     var body: some View {
         
         ScrollView {
-            
+            // MARK: Datos de la compańía seleccionada
             VStack(alignment: .leading) {
                 
                 if activo.currentStock != nil {
