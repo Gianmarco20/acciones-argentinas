@@ -11,7 +11,8 @@ import SwiftUI
 struct Acciones_Argentinas_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppTabView()
+                .environmentObject(ActivoModel())
         }
     }
 }

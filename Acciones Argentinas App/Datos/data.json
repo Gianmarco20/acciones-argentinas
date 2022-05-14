@@ -1,0 +1,73 @@
+[
+    {
+        "nombre": "Aluar Aluminio Argentino S.A",
+        "id": 0,
+        "ticker": "ALUA",
+        "sector": "industrial",
+        "panelLider": true,
+        "imagen": "aluar",
+        "descripcion": "Aluar es una compañía de capitales nacionales gestionada de acuerdo a los más exigentes parámetros internacionales de la industria y en permanente evolución. Desde sus inicios triplicó la capacidad de producción de aluminio de 140.000tn gracias a un constante plan de inversiones, lo que le permite hoy abastecer completamente el mercado local con aproximadamente el 30% de su volumen producido, exportando el otro 70% a países como Estados Unidos, Brasil, Japón y Alemania, entre otros. En la División Primario se materializa la mayor parte de las operaciones de Aluar, con una capacidad de producción de aluminio primario de 460.000tn anuales en su planta de Puerto Madryn. Allí se producen placas, lingotes, barrotes, alambrón y aleaciones de aluminio para abastecer a las más diversas industrias, construcción, automotriz, packaging, líneas de transmisión de energía, entre otras. La División Elaborados representa el siguiente eslabón en la cadena productiva, que posibilita que el aluminio puro sea transformado en extruidos y en laminados que proveen a un gran número de industrias, desde las fachadas de edificios hasta los packagings de alimentos comestibles. Estos productos con alto valor agregado son fabricados en la planta situada en la localidad de Abasto, provincia de Buenos Aires, que cuenta con una capacidad de producción de 35.000 toneladas anuales. A lo largo de sus 40 años de vida, Aluar mantuvo firme su visión e identidad histórica, expandiendo sus actividades hasta lograr un elevado grado de integración vertical en la cadena de producción y comercialización del aluminio, tanto aguas abajo con la producción de extruidos y laminados como aguas arriba en la producción y transporte de energía eléctrica, mediante la adquisición de la concesión sobre Hidroeléctrica Futaleufú – generadora de energía eléctrica - y con la participación en la transportadora de energía eléctrica en alta tensión Transpa S.A. La Empresa continuó diversificando sus actividades productivas y comerciales y en el año 2002 adquirió INFA S.A. una empresa especializada en la ejecución de soluciones integrales para proyectos de ingeniería, fabricación, construcción, montajes y servicios industriales y en año 2016, comenzó un proyecto de energías renovables, con un primer desarrollo de energía eólica por un total de 50MW.",
+        "productos": [
+            {
+                "nombre": "Barrotes para extrusión",
+                "id": 0,
+                "imagen": "barrotesParaExtrusion",
+                "descripcion": "Los barrotes de Aluar se producen por colada semicontínua vertical (Wagstaff Air Slip). El 100% de los barrotes son inspeccionados por ultrasonido para la detección de fisuras e inclusiones. Los barrotes de serie 6xxx son homogeneizados. Este producto se obtiene exclusivamente a partir de Aluminio primario. Aluar provee una variedad de aleaciones estándar (principalmente series 6000 y 1000) utilizadas en la construcción, el transporte y la industria electrónica. Este producto responde a las normas internacionales ISO, EN y otras."
+            },
+            {
+                "nombre": "Placas para laminación",
+                "id": 1,
+                "imagen": "placasParaLaminacion",
+                "descripcion": "Las placas para deformación plástica por laminación se producen por colada semi-contínua vertical en una variedad de aleaciones y dimensiones, utilizando exclusivamente Aluminio primario. Este producto es utilizado en la producción de laminados principalmente en la industria de la construcción, automotriz, menaje y embalaje."
+            },
+            {
+                "nombre": "Alambrón para trefilación, conform, calmado de aceros",
+                "id": 2,
+                "imagen": "alambron",
+                "descripcion": "El alambrón de Aluminio se produce en un sistema de colada y laminación continua de alambrón. Este producto tiene una alta demanda en la industria de los conductores eléctricos y cables, y para su uso en líneas de transmisión y distribución de electricidad, debido a sus buenas propiedades de conductividad eléctrica, resistencia mecánica y el peso reducido comparado con el cobre. El alambrón tiene también una creciente aplicación para la fabricación de cables para la industria automotriz. También es utilizado en la industria del acero como desoxidante. Asimismo se lo utiliza en el proceso de conform para fabricación de tubos y laminados por microextrusión. El alambrón de Aluar responde a las normas internacionales ASTM, EN, NBR, IRAM y otras."
+            },
+            {
+                "nombre": "Lingotes de Aleaciones de Moldeo para refusión (Small)",
+                "id": 3,
+                "imagen": "lingotesDeAleacionesSmall",
+                "descripcion": "Los lingotes de aleaciones de moldeo son producidos exclusivamente a partir de Aluminio primario. El destino de estas aleaciones es principalmente la industria automotriz mundial para la fabricación de llantas, piezas para frenos y suspensión, bloques de motor, y otras aplicaciones. Aluar ofrece este producto en formatos de lingote de molde abierto y lingotes producidos por colada contínua horizontal ( Lingote prismático y T). Las aleaciones primarias de moldeo están certificadas de acuerdo con la norma automotriz IATF 16949 que asegura una alta calidad sostenida en nuestros productos. Este producto responde a las normas internacionales ISO, EN y otras."
+            },
+            {
+                "nombre": "Lingotes de Aleaciones de Moldeo para refusión (Prismático)",
+                "id": 4,
+                "imagen": "lingotesDeAleacionesPrismatico",
+                "descripcion": "Los lingotes de aleaciones de moldeo son producidos exclusivamente a partir de Aluminio primario. El destino de estas aleaciones es principalmente la industria automotriz mundial para la fabricación de llantas, piezas para frenos y suspensión, bloques de motor, y otras aplicaciones. Aluar ofrece este producto en formatos de lingote de molde abierto y lingotes producidos por colada contínua horizontal ( Lingote prismático y T). Las aleaciones primarias de moldeo están certificadas de acuerdo con la norma automotriz ISO/TS 16949 que asegura una alta calidad sostenida en nuestros productos. Este producto responde a las normas internacionales ISO, EN y otras."
+            },
+            {
+                "nombre": "Aluminio Puro (Formato estándar)",
+                "id": 5,
+                "imagen": "aluminioPuro",
+                "descripcion": "Los lingotes de Aluminio puro para refusión de Aluar son producidos exclusivamente a partir de Aluminio primario (bajo contenido de impurezas), utilizando parámetros de proceso controlados para alcanzar una calidad óptima y una mínima pérdida de metal en el proceso de refusión posterior. Aluar ofrece este producto en formatos de lingote de molde abierto y lingotes producidos por colada contínua horizontal ( Lingote T). Este producto se utiliza en la fabricación de menaje, envases, transporte, construcción, entre otras aplicaciones."
+            },
+            {
+                "nombre": "Aluminio Puro (Formato T)",
+                "id": 6,
+                "imagen": "aluminioPuroT",
+                "descripcion": "Los lingotes de Aluminio puro para refusión de Aluar son producidos exclusivamente a partir de Aluminio primario (bajo contenido de impurezas), utilizando parámetros de proceso controlados para alcanzar una calidad óptima y una mínima pérdida de metal en el proceso de refusión posterior. Aluar ofrece este producto en formatos de lingote de molde abierto y lingotes producidos por colada contínua horizontal ( Lingote T). Este producto se utiliza en la fabricación de menaje, envases, transporte, construcción, entre otras aplicaciones."
+            },
+            {
+                "nombre": "Zincalum",
+                "id": 7,
+                "imagen": "zincalum",
+                "descripcion": "Las aleaciones del tipo Zincalum (aproximadamente 55% de aluminio y 45% zinc) se obtienen por solidificación en molde abierto (chanchas), a partir de aluminio primario. Este producto es utilizado para el recubrimiento de chapa de acero por galvanizado, en la industria de la construcción."
+            },
+            {
+                "nombre": "Perfiles Industriales",
+                "id": 8,
+                "imagen": "perfilesIndustriales",
+                "descripcion": "Los perfiles de aluminio fabricados en el sector de extrusión cubren prácticamente todos los requerimientos del mercado industrial ofreciendo una amplia diversidad de productos en una variada gama de aleaciones y temples. Entre otros, los rubros que actualmente satisfacemos son: Alimenticio, Calefacción y Refrigeración, Ductos Hospitalarios, Ortopedia, Electrónica y Mecánica, Línea Blanca, Evaporadores, Tubos de Riego, Náutica, Accesorios de carpintería, Escaleras, Puertas, Iluminación, Equipamiento de oficinas, Mobiliario, Transporte, Autopartes, Llantas. Para satisfacer las cada vez más exigentes necesidades de la Industria Nacional e Internacional, contamos con un equipo de profesionales especializados que podrán asesorarlo en todos sus proyectos."
+            }
+        ],
+        "marketCap": "237.440MM",
+        "ingresosTotales": "84.727MM",
+        "ingresoBruto": "16.354MM",
+        "ingresoNeto": "16.778MM",
+        "ebitda": "22.601MM",
+        "bpa": "1.56"
+    }
+]

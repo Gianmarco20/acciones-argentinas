@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F410179C282F5B560072CF01 /* PerfilProductoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410179B282F5B560072CF01 /* PerfilProductoView.swift */; };
 		F46F8054282EB39A00A8C39F /* Acciones_Argentinas_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8053282EB39A00A8C39F /* Acciones_Argentinas_AppApp.swift */; };
-		F46F8056282EB39A00A8C39F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8055282EB39A00A8C39F /* ContentView.swift */; };
+		F46F8056282EB39A00A8C39F /* ActivosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8055282EB39A00A8C39F /* ActivosListView.swift */; };
 		F46F8058282EB39A00A8C39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46F8057282EB39A00A8C39F /* Assets.xcassets */; };
 		F46F805B282EB39A00A8C39F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46F805A282EB39A00A8C39F /* Preview Assets.xcassets */; };
+		F46F8067282EB3EF00A8C39F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F46F8066282EB3EF00A8C39F /* data.json */; };
+		F46F8069282ED38C00A8C39F /* Activo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8068282ED38C00A8C39F /* Activo.swift */; };
+		F46F806D282ED64A00A8C39F /* ActivoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F806C282ED64A00A8C39F /* ActivoModel.swift */; };
+		F46F806F282ED6C000A8C39F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F806E282ED6C000A8C39F /* DataService.swift */; };
+		F46F8071282EDE2C00A8C39F /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8070282EDE2C00A8C39F /* AppTabView.swift */; };
+		F46F8073282EDED100A8C39F /* SectoresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8072282EDED100A8C39F /* SectoresListView.swift */; };
+		F46F8075282EE82C00A8C39F /* PerfilEmpresaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8074282EE82C00A8C39F /* PerfilEmpresaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F410179B282F5B560072CF01 /* PerfilProductoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilProductoView.swift; sourceTree = "<group>"; };
 		F46F8050282EB39A00A8C39F /* Acciones Argentinas App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acciones Argentinas App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46F8053282EB39A00A8C39F /* Acciones_Argentinas_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acciones_Argentinas_AppApp.swift; sourceTree = "<group>"; };
-		F46F8055282EB39A00A8C39F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F46F8055282EB39A00A8C39F /* ActivosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivosListView.swift; sourceTree = "<group>"; };
 		F46F8057282EB39A00A8C39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46F805A282EB39A00A8C39F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F46F8066282EB3EF00A8C39F /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		F46F8068282ED38C00A8C39F /* Activo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activo.swift; sourceTree = "<group>"; };
+		F46F806C282ED64A00A8C39F /* ActivoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivoModel.swift; sourceTree = "<group>"; };
+		F46F806E282ED6C000A8C39F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F46F8070282EDE2C00A8C39F /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		F46F8072282EDED100A8C39F /* SectoresListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectoresListView.swift; sourceTree = "<group>"; };
+		F46F8074282EE82C00A8C39F /* PerfilEmpresaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilEmpresaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				F46F8053282EB39A00A8C39F /* Acciones_Argentinas_AppApp.swift */,
-				F46F8055282EB39A00A8C39F /* ContentView.swift */,
+				F46F8065282EB3CA00A8C39F /* Views */,
+				F46F8064282EB3C300A8C39F /* ViewModels */,
+				F46F8063282EB3BA00A8C39F /* Models */,
+				F46F8062282EB3B400A8C39F /* Servicios */,
+				F46F8061282EB3AC00A8C39F /* Datos */,
 				F46F8057282EB39A00A8C39F /* Assets.xcassets */,
 				F46F8059282EB39A00A8C39F /* Preview Content */,
 			);
@@ -65,6 +85,50 @@
 				F46F805A282EB39A00A8C39F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F46F8061282EB3AC00A8C39F /* Datos */ = {
+			isa = PBXGroup;
+			children = (
+				F46F8066282EB3EF00A8C39F /* data.json */,
+			);
+			path = Datos;
+			sourceTree = "<group>";
+		};
+		F46F8062282EB3B400A8C39F /* Servicios */ = {
+			isa = PBXGroup;
+			children = (
+				F46F806E282ED6C000A8C39F /* DataService.swift */,
+			);
+			path = Servicios;
+			sourceTree = "<group>";
+		};
+		F46F8063282EB3BA00A8C39F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F46F8068282ED38C00A8C39F /* Activo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F46F8064282EB3C300A8C39F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F46F806C282ED64A00A8C39F /* ActivoModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F46F8065282EB3CA00A8C39F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F46F8070282EDE2C00A8C39F /* AppTabView.swift */,
+				F46F8055282EB39A00A8C39F /* ActivosListView.swift */,
+				F46F8072282EDED100A8C39F /* SectoresListView.swift */,
+				F46F8074282EE82C00A8C39F /* PerfilEmpresaView.swift */,
+				F410179B282F5B560072CF01 /* PerfilProductoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F46F805B282EB39A00A8C39F /* Preview Assets.xcassets in Resources */,
+				F46F8067282EB3EF00A8C39F /* data.json in Resources */,
 				F46F8058282EB39A00A8C39F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +202,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46F8056282EB39A00A8C39F /* ContentView.swift in Sources */,
+				F410179C282F5B560072CF01 /* PerfilProductoView.swift in Sources */,
+				F46F8056282EB39A00A8C39F /* ActivosListView.swift in Sources */,
+				F46F8073282EDED100A8C39F /* SectoresListView.swift in Sources */,
 				F46F8054282EB39A00A8C39F /* Acciones_Argentinas_AppApp.swift in Sources */,
+				F46F8069282ED38C00A8C39F /* Activo.swift in Sources */,
+				F46F8075282EE82C00A8C39F /* PerfilEmpresaView.swift in Sources */,
+				F46F806D282ED64A00A8C39F /* ActivoModel.swift in Sources */,
+				F46F8071282EDE2C00A8C39F /* AppTabView.swift in Sources */,
+				F46F806F282ED6C000A8C39F /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
