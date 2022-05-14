@@ -41,13 +41,13 @@ class ActivoModel: ObservableObject {
     // MARK: Función dedicada a reconocer el producto seleccionado
     func beginProduct(_ productIndex: Int) {
         
-        if currentProductIndex < currentStock!.productos.count {
+        if currentProductIndex < currentStock!.productos!.count {
             
             currentProductIndex = productIndex
         }
         else {
             currentProductIndex = 0
         }
-        currentProduct = currentStock!.productos[currentProductIndex]
+        currentProduct = currentStock!.productos![currentProductIndex]
     }
 }

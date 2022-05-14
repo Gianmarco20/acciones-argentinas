@@ -14,9 +14,10 @@ class Activo: Identifiable, Decodable {
     var ticker: String
     var panelLider: Bool
     var sector: String
-    var imagen: String
+    var logo: String
+    var imagenes: [String]
     var descripcion: String
-    var productos: [Producto]
+    var productos: [Producto]?
     var marketCap: String
     var ingresosTotales: String
     var ingresoBruto: String

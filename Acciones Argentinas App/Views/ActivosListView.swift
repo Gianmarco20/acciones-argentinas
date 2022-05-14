@@ -29,7 +29,7 @@ struct ActivosListView: View {
                                         model.beginStock(activo.id)
                                     }), label: {
                                     HStack {
-                                        Image(activo.imagen)
+                                        Image(activo.logo)
                                             .resizable()
                                             .frame(width: 30, height: 30, alignment: .center)
                                             .padding(.trailing, 20)

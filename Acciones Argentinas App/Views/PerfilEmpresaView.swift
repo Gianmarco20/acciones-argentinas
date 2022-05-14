@@ -18,19 +18,21 @@ struct PerfilEmpresaView: View {
             VStack(alignment: .leading) {
                 
                 if activo.currentStock != nil {
-                    
+                    // MARK: Nombre compañía
                     HStack {
                         Text("Nombre: ")
                             .font(.headline)
                         Text(activo.currentStock!.nombre)
                     }
                     .padding(.bottom)
+                    // MARK: Sector de la compañía
                     HStack {
                         Text("Sector: ")
                             .font(.headline)
                         Text(activo.currentStock!.sector.capitalized)
                     }
                     .padding(.bottom)
+                    // MARK: Cuadro indicadores financieros
                     ZStack {
                         Rectangle()
                             .foregroundColor(.white)
@@ -83,34 +85,38 @@ struct PerfilEmpresaView: View {
                         }
                     }
                     .padding(.bottom)
+                    // MARK: Descripción de la compañía
                     Text("Descripción: ")
                         .font(.headline)
                         .padding(.bottom, 1)
                     Text(activo.currentStock!.descripcion)
                         .padding(.bottom)
-                    Text("Productos comercializados: ")
-                        .font(.headline)
-                        .padding(.bottom, 1)
-                    ForEach(activo.currentStock!.productos) { producto in
-                        LazyVStack(alignment: .leading) {
-                            NavigationLink(destination: PerfilProductoView()
-                                .onAppear(perform: {
-                                    activo.beginProduct(producto.id)
-                                })
-                                           , label: {
-                                HStack {
-                                    Image(producto.imagen)
-                                        .resizable()
-                                        .frame(width: 60, height: 60, alignment: .center)
-                                        .padding(.trailing)
-                                    VStack(alignment: .leading) {
-                                        Text(producto.nombre)
-                                            .lineLimit(1)
-                                            .foregroundColor(.black)
-                                            .font(.subheadline)
+                    // MARK: Productos que creá la compañía
+                    if (activo.currentStock!.productos!.count > 0) {
+                        Text("Productos comercializados: ")
+                            .font(.headline)
+                            .padding(.bottom, 1)
+                        ForEach(activo.currentStock!.productos!) { producto in
+                            LazyVStack(alignment: .leading) {
+                                NavigationLink(destination: PerfilProductoView()
+                                    .onAppear(perform: {
+                                        activo.beginProduct(producto.id)
+                                    })
+                                               , label: {
+                                    HStack {
+                                        Image(producto.imagen)
+                                            .resizable()
+                                            .frame(width: 60, height: 60, alignment: .center)
+                                            .padding(.trailing)
+                                        VStack(alignment: .leading) {
+                                            Text(producto.nombre)
+                                                .lineLimit(1)
+                                                .foregroundColor(.black)
+                                                .font(.subheadline)
+                                        }
                                     }
-                                }
-                            })
+                                })
+                            }
                         }
                     }
                 }
