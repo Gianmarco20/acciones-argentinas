@@ -68,10 +68,11 @@ struct PerfilEmpresaView: View {
                         .padding(.bottom, 1)
                     Text(activo.currentStock!.descripcion)
                         .padding(.bottom)
+                    Text("Productos comercializados: ")
+                        .font(.headline)
+                        .padding(.bottom, 1)
                     ForEach(activo.currentStock!.productos) { producto in
-                        
                         LazyVStack(alignment: .leading) {
-                            
                             NavigationLink(destination: PerfilProductoView()
                                 .onAppear(perform: {
                                     activo.beginProduct(producto.id)
@@ -82,9 +83,12 @@ struct PerfilEmpresaView: View {
                                         .resizable()
                                         .frame(width: 60, height: 60, alignment: .center)
                                         .padding(.trailing)
-                                    Text(producto.nombre)
-                                        .foregroundColor(.black)
-                                        .font(.headline)
+                                    VStack(alignment: .leading) {
+                                        Text(producto.nombre)
+                                            .lineLimit(1)
+                                            .foregroundColor(.black)
+                                            .font(.subheadline)
+                                    }
                                 }
                             })
                         }
