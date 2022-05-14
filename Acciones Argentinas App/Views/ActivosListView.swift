@@ -28,27 +28,27 @@ struct ActivosListView: View {
                                     .onAppear(perform: {
                                         model.beginStock(activo.id)
                                     }), label: {
-                                    HStack {
-                                        Image(activo.imagen)
-                                            .resizable()
-                                            .frame(width: 30, height: 30, alignment: .center)
-                                            .padding(.trailing, 20)
-                                        
-                                        VStack(alignment: .leading) {
+                                        HStack {
+                                            Image(activo.imagen)
+                                                .resizable()
+                                                .frame(width: 30, height: 30, alignment: .center)
+                                                .padding(.trailing, 20)
                                             
-                                            HStack(alignment: .top) {
-                                                Text(activo.ticker)
-                                                    .font(.title3)
-                                                    .bold()
-                                                Spacer()
-                                                Text(activo.sector.capitalized)
-                                                    .font(.caption2)
+                                            VStack(alignment: .leading) {
+                                                
+                                                HStack(alignment: .top) {
+                                                    Text(activo.ticker)
+                                                        .font(.title3)
+                                                        .bold()
+                                                    Spacer()
+                                                    Text(activo.sector.capitalized)
+                                                        .font(.caption2)
+                                                }
+                                                Text(activo.nombre)
+                                                    .font(.caption)
                                             }
-                                            Text(activo.nombre)
-                                                .font(.caption)
                                         }
-                                    }
-                                })
+                                    })
                             }
                         }
                     }
