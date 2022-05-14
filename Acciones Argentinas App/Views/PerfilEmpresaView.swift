@@ -24,13 +24,33 @@ struct PerfilEmpresaView: View {
                             .font(.headline)
                         Text(activo.currentStock!.nombre)
                     }
-                    .padding(.bottom)
+                    .padding([.bottom, .horizontal])
                     // MARK: Sector de la compañía
                     HStack {
                         Text("Sector: ")
                             .font(.headline)
                         Text(activo.currentStock!.sector.capitalized)
                     }
+                    .padding([.bottom, .horizontal])
+                    // MARK: Scroll imágenes de la compañía
+                    TabView {
+                        ForEach(0..<activo.currentStock!.imagenes.count, id:\.self) { index in
+                            ZStack {
+                                Rectangle()
+                                    .foregroundColor(.white)
+                                Image(activo.currentStock!.imagenes[index])
+                                    .resizable()
+                                    .clipped()
+                                    .scaledToFit()
+                            }
+                            .cornerRadius(20)
+                            .padding(.horizontal)
+                        }
+                    }
+                    .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+                    .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+                    .frame(height: 300, alignment: .center)
+                    .shadow(color: .gray, radius: 2, x: -2, y: 2)
                     .padding(.bottom)
                     // MARK: Cuadro indicadores financieros
                     ZStack {
@@ -84,18 +104,20 @@ struct PerfilEmpresaView: View {
                             }
                         }
                     }
-                    .padding(.bottom)
+                    .padding([.bottom, .horizontal])
                     // MARK: Descripción de la compañía
                     Text("Descripción: ")
                         .font(.headline)
                         .padding(.bottom, 1)
+                        .padding(.horizontal)
                     Text(activo.currentStock!.descripcion)
-                        .padding(.bottom)
+                        .padding([.bottom, .horizontal])
                     // MARK: Productos que creá la compañía
                     if (activo.currentStock!.productos!.count > 0) {
                         Text("Productos comercializados: ")
                             .font(.headline)
                             .padding(.bottom, 1)
+                            .padding(.horizontal)
                         ForEach(activo.currentStock!.productos!) { producto in
                             LazyVStack(alignment: .leading) {
                                 NavigationLink(destination: PerfilProductoView()
@@ -117,11 +139,11 @@ struct PerfilEmpresaView: View {
                                     }
                                 })
                             }
+                            .padding(.horizontal)
                         }
                     }
                 }
             }
-            .padding()
             .navigationTitle(activo.currentStock?.ticker ?? "")            
         }
     }
