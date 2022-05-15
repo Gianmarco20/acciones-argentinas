@@ -13,7 +13,7 @@ struct SectoresListView: View {
     }
 }
 
-struct PanelGeneralListView_Previews: PreviewProvider {
+struct SectoresListView_Previews: PreviewProvider {
     static var previews: some View {
         SectoresListView()
     }

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F410179C282F5B560072CF01 /* PerfilProductoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410179B282F5B560072CF01 /* PerfilProductoView.swift */; };
 		F46F8054282EB39A00A8C39F /* Acciones_Argentinas_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8053282EB39A00A8C39F /* Acciones_Argentinas_AppApp.swift */; };
-		F46F8056282EB39A00A8C39F /* ActivosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8055282EB39A00A8C39F /* ActivosListView.swift */; };
+		F46F8056282EB39A00A8C39F /* PanelLiderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8055282EB39A00A8C39F /* PanelLiderListView.swift */; };
 		F46F8058282EB39A00A8C39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46F8057282EB39A00A8C39F /* Assets.xcassets */; };
 		F46F805B282EB39A00A8C39F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46F805A282EB39A00A8C39F /* Preview Assets.xcassets */; };
 		F46F8067282EB3EF00A8C39F /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F46F8066282EB3EF00A8C39F /* data.json */; };
@@ -19,13 +19,14 @@
 		F46F8071282EDE2C00A8C39F /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8070282EDE2C00A8C39F /* AppTabView.swift */; };
 		F46F8073282EDED100A8C39F /* SectoresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8072282EDED100A8C39F /* SectoresListView.swift */; };
 		F46F8075282EE82C00A8C39F /* PerfilEmpresaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46F8074282EE82C00A8C39F /* PerfilEmpresaView.swift */; };
+		F4B8F41A2831C85300BCA0BC /* PanelGeneralListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B8F4192831C85300BCA0BC /* PanelGeneralListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F410179B282F5B560072CF01 /* PerfilProductoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilProductoView.swift; sourceTree = "<group>"; };
 		F46F8050282EB39A00A8C39F /* Acciones Argentinas App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acciones Argentinas App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46F8053282EB39A00A8C39F /* Acciones_Argentinas_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acciones_Argentinas_AppApp.swift; sourceTree = "<group>"; };
-		F46F8055282EB39A00A8C39F /* ActivosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivosListView.swift; sourceTree = "<group>"; };
+		F46F8055282EB39A00A8C39F /* PanelLiderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelLiderListView.swift; sourceTree = "<group>"; };
 		F46F8057282EB39A00A8C39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46F805A282EB39A00A8C39F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F46F8066282EB3EF00A8C39F /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
@@ -35,6 +36,7 @@
 		F46F8070282EDE2C00A8C39F /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 		F46F8072282EDED100A8C39F /* SectoresListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectoresListView.swift; sourceTree = "<group>"; };
 		F46F8074282EE82C00A8C39F /* PerfilEmpresaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilEmpresaView.swift; sourceTree = "<group>"; };
+		F4B8F4192831C85300BCA0BC /* PanelGeneralListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelGeneralListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +125,11 @@
 			isa = PBXGroup;
 			children = (
 				F46F8070282EDE2C00A8C39F /* AppTabView.swift */,
-				F46F8055282EB39A00A8C39F /* ActivosListView.swift */,
+				F46F8055282EB39A00A8C39F /* PanelLiderListView.swift */,
 				F46F8072282EDED100A8C39F /* SectoresListView.swift */,
 				F46F8074282EE82C00A8C39F /* PerfilEmpresaView.swift */,
 				F410179B282F5B560072CF01 /* PerfilProductoView.swift */,
+				F4B8F4192831C85300BCA0BC /* PanelGeneralListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,8 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B8F41A2831C85300BCA0BC /* PanelGeneralListView.swift in Sources */,
 				F410179C282F5B560072CF01 /* PerfilProductoView.swift in Sources */,
-				F46F8056282EB39A00A8C39F /* ActivosListView.swift in Sources */,
+				F46F8056282EB39A00A8C39F /* PanelLiderListView.swift in Sources */,
 				F46F8073282EDED100A8C39F /* SectoresListView.swift in Sources */,
 				F46F8054282EB39A00A8C39F /* Acciones_Argentinas_AppApp.swift in Sources */,
 				F46F8069282ED38C00A8C39F /* Activo.swift in Sources */,

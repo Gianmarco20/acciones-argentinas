@@ -12,11 +12,19 @@ struct AppTabView: View {
         
         TabView {
             
-            ActivosListView()
+            PanelLiderListView()
                 .tabItem{
                     VStack {
                         Image(systemName: "building.2")
-                        Text("Activos")
+                        Text("Panel líder")
+                    }
+                }
+            
+            PanelGeneralListView()
+                .tabItem{
+                    VStack {
+                        Image(systemName: "building")
+                        Text("Panel General")
                     }
                 }
             

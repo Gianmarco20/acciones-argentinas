@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ActivosListView: View {
+struct PanelLiderListView: View {
     
     @EnvironmentObject var model: ActivoModel
     
@@ -16,7 +16,7 @@ struct ActivosListView: View {
         NavigationView {
             
             List {
-                // MARK: Sección de acciones del panel líder
+                // MARK: Sección de acciones del panel general
                 ForEach(model.activos) { activo in
                     
                     if activo.panelLider {
@@ -54,12 +54,13 @@ struct ActivosListView: View {
             .environmentObject(ActivoModel())
         }
         .navigationViewStyle(.stack)
+        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct PanelLiderListView_Previews: PreviewProvider {
     static var previews: some View {
-        ActivosListView()
+        PanelLiderListView()
             .environmentObject(ActivoModel())
     }
 }
