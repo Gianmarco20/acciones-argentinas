@@ -17,43 +17,40 @@ struct ActivosListView: View {
             
             List {
                 // MARK: Sección de acciones del panel líder
-                Section(header: Text("Panel Líder")
-                    .foregroundColor(.black)) {
+                ForEach(model.activos) { activo in
+                    
+                    if activo.panelLider {
                         
-                        ForEach(model.activos) { activo in
-                            
-                            if activo.panelLider == true {
-                                
-                                NavigationLink(destination: PerfilEmpresaView()
-                                    .onAppear(perform: {
-                                        model.beginStock(activo.id)
-                                    }), label: {
-                                    HStack {
-                                        Image(activo.logo)
-                                            .resizable()
-                                            .frame(width: 30, height: 30, alignment: .center)
-                                            .padding(.trailing, 20)
+                        NavigationLink(destination: PerfilEmpresaView()
+                            .onAppear(perform: {
+                                model.beginStock(activo.id)
+                            }), label: {
+                                HStack {
+                                    Image(activo.logo)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 30, height: 30, alignment: .center)
+                                        .padding(.trailing, 20)
+                                    
+                                    VStack(alignment: .leading) {
                                         
-                                        VStack(alignment: .leading) {
-                                            
-                                            HStack(alignment: .top) {
-                                                Text(activo.ticker)
-                                                    .font(.title3)
-                                                    .bold()
-                                                Spacer()
-                                                Text(activo.sector.capitalized)
-                                                    .font(.caption2)
-                                            }
-                                            Text(activo.nombre)
-                                                .font(.caption)
+                                        HStack(alignment: .top) {
+                                            Text(activo.ticker)
+                                                .font(.title3)
+                                                .bold()
+                                            Spacer()
+                                            Text(activo.sector.capitalized)
+                                                .font(.caption2)
                                         }
+                                        Text(activo.nombre)
+                                            .font(.caption)
                                     }
-                                })
-                            }
-                        }
+                                }
+                            })
                     }
+                }
             }
-            .navigationTitle(Text("Lista de activos"))
+            .navigationTitle(Text("Panel Líder"))
             .environmentObject(ActivoModel())
         }
         .navigationViewStyle(.stack)

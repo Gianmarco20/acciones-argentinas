@@ -70,7 +70,7 @@
                 "descripcion": "Los perfiles de aluminio fabricados en el sector de extrusión cubren prácticamente todos los requerimientos del mercado industrial ofreciendo una amplia diversidad de productos en una variada gama de aleaciones y temples. Entre otros, los rubros que actualmente satisfacemos son: Alimenticio, Calefacción y Refrigeración, Ductos Hospitalarios, Ortopedia, Electrónica y Mecánica, Línea Blanca, Evaporadores, Tubos de Riego, Náutica, Accesorios de carpintería, Escaleras, Puertas, Iluminación, Equipamiento de oficinas, Mobiliario, Transporte, Autopartes, Llantas. Para satisfacer las cada vez más exigentes necesidades de la Industria Nacional e Internacional, contamos con un equipo de profesionales especializados que podrán asesorarlo en todos sus proyectos."
             }
         ],
-        "marketCap": "235.200MM",
+        "marketCap": "234.920MM",
         "resultadoBruto": "32.426MM",
         "resultadoOperativo": "25.187MM",
         "resultadoNeto": "18.987MM",
@@ -81,7 +81,7 @@
         "nombre": "BANCO BBVA ARGENTINA S.A.",
         "id": 1,
         "ticker": "BBAR",
-        "sector": "bancaria",
+        "sector": "bancario",
         "panelLider": true,
         "logo": "bbva",
         "imagenes": [
@@ -97,5 +97,46 @@
         "resultadoNeto": "21.162MM",
         "ebitda": "50.556MM",
         "bpa": "34.57"
+    },
+    {
+        "nombre": "BANCO MACRO S.A.",
+        "id": 2,
+        "ticker": "BMA",
+        "sector": "bancario",
+        "panelLider": true,
+        "logo": "bma",
+        "imagenes": [
+            "bma",
+            "bma1",
+            "bma2"
+        ],
+        "descripcion": "Banco Macro inicia sus actividades como institución financiera no bancaria en 1985 con la adquisición de Macro Financiera. En 1988 fue autorizado por Banco Central de la República Argentina para funcionar como banco comercial. Desde allí y hasta 1995, Banco Macro desarrolló sus actividades como banco mayorista, siendo pionero en la emisión de bonos corporativos. Actuando principalmente en las áreas de money market, trading de títulos públicos y privados y servicios financieros para empresas medianas y grandes. Con la crisis del “Tequila”, cambió sustancialmente su estrategia de negocios, focalizándose en la operatoria de banca minorista en aquellas áreas del mercado de bajo nivel de bancarización y alto potencial de crecimiento. En esta dirección, desde enero de 1996 adquirió paquetes accionarios de bancos provinciales privatizados: Banco Misiones (93%), Banco Salta (98%) y Banco Jujuy (100%). Dado el éxito en estas inversiones profundizó la nueva estrategia de “banca minorista regional”, a través de la compra de activos y pasivos del Banco del Noroeste C.L. Posteriormente, participó en la reestructuración de los Bancos Almafuerte Coop. Ltdo., Mayo S.A., Israelita de Córdoba S.A. y Mendoza S.A., incorporando sucursales ubicadas en el norte y centro del país. En diciembre de 2001, Banco Macro sólidamente posicionado en el norte del país, amplió su nivel de presencia nacional adquiriendo el 59.58% del capital social de Banco Bansud. Quien se encontraba posicionado como una entidad bancaria privada líder en el sur del país con una vasta trayectoria en su área de influencia y una amplia red de sucursales. En agosto de 2002, adquirió 36 sucursales del Scotiabank Quilmes. Luego los accionistas de Banco Macro y Banco Bansud, decidieron la fusión de ambas entidades financieras con el objetivo estratégico de integrar una entidad con presencia en todo el territorio argentino.",
+        "productos": [],
+        "marketCap": "212.535MM",
+        "resultadoBruto": "194.525MM",
+        "resultadoOperativo": "93.629MM",
+        "resultadoNeto": "27.123MM",
+        "ebitda": "54.451MM",
+        "bpa": "42,41"
+    },
+    {
+        "nombre": "BOLSAS Y MERCADOS ARGENTINOS S.A.",
+        "id": 3,
+        "ticker": "BYMA",
+        "sector": "mercado de capitales",
+        "panelLider": true,
+        "logo": "byma",
+        "imagenes": [
+            "byma",
+            "byma1"
+        ],
+        "descripcion": "Integrada bajo una plataforma tecnológica de última generación y con los estándares de calidad y seguridad de los principales mercados del mundo, BYMA ofrece un acceso seguro y transparente al mundo de las inversiones, tanto a las instituciones, como a las empresas y al público en general. BYMA es la evolución del mercado de capitales argentino, conjuga liquidez, conocimiento y profesionalismo, para afrontar los desafíos y exigencias del mundo actual, transformando las inversiones en trabajo y desarrollo para el país. Con el objetivo de encausar las necesidades del nuevo mercado de capitales previsto en la Ley 26.831, el Mercado de Valores de Buenos Aires S.A. implementó una reorganización en los términos del Artículo 77 de la Ley de Impuestos a las Ganancias, procediendo a la escisión parcial de su patrimonio para constituir una nueva entidad: Bolsas y Mercados Argentinos S.A. “BYMA”, resultando ésta la continuadora de la actividad del Mercado de Valores de Buenos Aires S.A., con la particularidad que en la constitución de la nueva entidad se ha incorporado la Bolsa de Comercio de Buenos Aires como accionista.",
+        "productos": [],
+        "marketCap": "91.995MM",
+        "resultadoBruto": "910.764M",
+        "resultadoOperativo": "677.822M",
+        "resultadoNeto": "(1.310)MM",
+        "ebitda": "(543.549)M",
+        "bpa": "(17,18)"
     }
 ]
