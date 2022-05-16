@@ -138,5 +138,63 @@
         "resultadoNeto": "(1.310)MM",
         "ebitda": "(543.549)M",
         "bpa": "(17,18)"
+    },
+    {
+        "nombre": "AGROMETAL S.A.",
+        "id": 4,
+        "ticker": "AGRO",
+        "sector": "industrial",
+        "panelLider": false,
+        "logo": "agrometal",
+        "imagenes": [
+            "agrometal",
+            "agrometal1",
+            "agrometal2"
+        ],
+        "descripcion": "Agrometal S.A.I. está constituida en su forma actual desde 1957, siendo continuadora de Agrometal Soc. Cooperativa y Agrometal S.R.L.. Con sus antecesoras, el inicio de la operación de la empresa se remonta a antes de 1950. Cotiza en la Bolsa de Comercio de Buenos Aires desde el año 1961. Su actividad principal es la fabricación de maquinaria agrícola de roturación y siembra. Actualmente investiga nuevos sistemas de siembra adaptables a las variaciones que se producirán en las diferentes semillas y en la aplicación de herbicidas y fertilizantes. Durante más de 40 años ha sido pionera y una de las principales responsables del diseño y desarrollo tecnológico de la maquinaria agrícola para las necesidades del campo argentino. Agrometal cuenta con una planta industrial ubicada en la localidad de Monte Maíz, Provincia de Córdoba, donde lleva a cabo la fabricación de máquinas agrícolas de roturación y siembra, ocupa actualmente 295 personas, en su planta industrial de 16.000 m2 cubiertos en terrenos de 191745 m2 de superficie. En el año 1997 festejó su aniversario Nº 40 y lleva lanzados al mercado más de 80.000 máquinas, participa con el 25% del mercado de sembradoras siendo líder indiscutido en el segmento de sembradoras, especialmente en los modelos para siembra directa y siembra en mínima labranza. Participa con el 25% del mercado nacional de sembradoras y ha exportado a Bolivia, Uruguay, Estados Unidos, Venezuela, Cuba, Brasil, Perú, Paraguay, Chile y Costa de Marfil.",
+        "productos": [
+            {
+                "nombre": "TX MEGA GEN 3",
+                "id": 0,
+                "imagen": "txMegaGen3",
+                "descripcion": "La TX MEGA GEN 3 presenta soluciones que te permitirán alcanzar el mejor rendimiento en tu campaña de grueso. Conocemos el secreto para una buena siembra, su tren de siembra está diseñado para alcanzar el mejor planteo de granos gruesos y además está diseñado totalmente libre de mantenimiento. Con más de 60.000 configuraciones disponibles, podes armar la mega a la medida de tus necesidades, de tu campo. Equipala con toda la agricultura de precisión disponible en el mercado: dosificadores y electrónica Precisión Planting, electrónica TIM, sistemas de carga y amortiguación Twin Force, y además es compatible con ambientaciones Field View. La tecnología potencia una buena máquina, sobre una mega, vas a obtener el mejor retorno de tu inversión. Construida por profesionales, con insumos de primera calidad, la TX MEGA GEN 3 te garantiza prolongados períodos de trabajo, con el mínimo mantenimiento y el mejor valor de reventa del mercado. Su nuevo conjunto de transporte, con sus 3,9 mts de ancho y su despeje de 60 cm te van a permitir pasar por todos lados. ¿Querés lograr la mejor calidad en la próxima campaña de grueso? Alcanzá tus más altos rindes en maíz y soja sembrando con la TX MEGA GEN 3."
+            },
+            {
+                "nombre": "TX PIVOT 2",
+                "id": 1,
+                "imagen": "TxPivot2",
+                "descripcion": "El autotrailer más robusto, ágil y preciso del mercado. Sus 3,7 mts de ancho y 65 cm de despeje te permitirán moverte del pueblo al campo rápido, ágil y sin problemas tanto por ruta como por caminos rurales difíciles de transitar. Puede pasar de posición de transporte a trabajo en 120 segundos, con un solo operador. Conocemos el secreto para una buena siembra, su tren de siembra está diseñado para alcanzar el mejor planteo de tu siembra de grueso y además está libre de mantenimiento. Construida por profesionales, con insumos de primera calidad, su lanza única y estructura tubular te garantiza prolongados períodos de trabajo, con el mínimo mantenimiento y gran durabilidad. Equipala con toda la agricultura de precisión disponible en el mercado, dosificadores y electrónica Precisión Planting, TIM, sistemas de carga sobre el cuerpo de siembra Twin Force, compatible con ambientaciones Field View. La tecnología potencia una buena máquina, sobre una PIVOT, vas a obtener el mejor retorno de tu inversión."
+            },
+            {
+                "nombre": "APX",
+                "id": 2,
+                "imagen": "apx",
+                "descripcion": "La sembradora Air Planter más práctica, adaptable y precisa del mercado. Su exclusivo sistema de plegado, y el balancín en sus ruedas principales, permite transportar la sembradora a 40km a tiro de tractor permitiendo ganar tiempo y dinero aprovechando mejor la ventana de siembra. Gracias a su ingeniería, APX tiene un ancho de trabajo de más de 12 metros, logrando un ancho en transporte de 3,5 mts y un despeje de más de 60 cm, permite que puedas moverte por caminos abovedados y ruta. Ágil pasaje de transporte a trabajo y viceversa, en 120 segundos, y con un solo operador. Única Air Planter con sistema Land Copy, permite una óptima apertura del surco sin necesidad del agregado de lastre en el chasis."
+            },
+            {
+                "nombre": "ADX",
+                "id": 3,
+                "imagen": "adx",
+                "descripcion": "Gana tiempo y rentabilidad sembrando más hectáreas con la Air Drill más adaptable, ágil y práctica del mercado. Su exclusivo sistema de plegado, y el balancín en sus ruedas principales, permite transportar la sembradora a 40km a tiro de tractor permitiendo ganar tiempo y dinero aprovechando mejor la ventana de siembra. Gracias a su ingeniería, ADX tiene un ancho de trabajo de más de 10 metros, logrando un ancho en transporte de 3,5 mts y un despeje de más de 60 cm, permite que puedas moverte por caminos abovedados y ruta cumpliendo las reglamentaciones de trasporte. . Ágil pasaje de transporte a trabajo y viceversa, en 120 segundos, y con un solo operador. Única Air Drill con sistema Land Copy, permite una óptima apertura del surco sin necesidad del agregado de lastre en el chasis: Chasis Articulado en 3 secciones. Transferencia de peso del centro hacia los alerones. Balancín en ruedas. Su sistema Doble Shot te permite monitorear semillas y fertilizantes por separado,surco por surco, brindando una mayor seguridad y control en tu siembra. ADX está equipada con distribuidores de flujo plano, que garantizan una correcta distribución de semillas y fertilizantes en cualquier condición de terreno sin saltos de flujo. También podes equipar tu ADX con la más alta tecnología en siembra, dosificadores y electrónica Precisión Planting ó TIM, y es compatible con ambientaciones Field View. La tecnología potencia una buena máquina, sobre una ADX, vas a obtener el mejor retorno de tu inversión."
+            },
+            {
+                "nombre": "MXY 2",
+                "id": 4,
+                "imagen": "mxy2",
+                "descripcion": "Reconocida por su excelente poder de penetración, MXY 2 te permitirá sembrár granos finos, gruesos y pasturas con el excelente nivel de siembra, durabilidad y confianza. Por su estructura y diseño, ofrece una siembra óptima, tanto de granos finos como de granos gruesos, en todo tipo de terrenos. La disponibilidad de equiparla con el nuevo dosificador a placa de Agrometal le aporta una elevada precisión y confianza a la hora de sembrar granos gruesos. Su calidad constructiva y su robustez te va a dar la tranquilidad de trabajar largas campañas sin paradas, sea cual sea la condición de suelo y rastrojo."
+            },
+            {
+                "nombre": "MX MAX",
+                "id": 5,
+                "imagen": "mxMax",
+                "descripcion": "Resolvé todas tus necesidades de siembra con un solo equipo. MX MAX es una verdadera sembradora de granos finos multipropósito, que te permitirá sembrar pasturas, granos finos y granos gruesos con un excelente nivel de planteo. Su cuerpo de siembra, completamente libre de mantenimiento, está especialmente diseñado para alojar el dosificador de precisión con el tubo de descarga curvo, es el único modelo de su tipo en el mercado, lo que convierte a nuestra MX MAX en una verdadera multipropósito. Su conjunto de transporte le da a este modelo un ancho de 3,7 mts a tiro de tractor, con un despeje de 70 cm, facilitando su movilidad por todo tipo de caminos. Sus tolvas están pensadas para que aproveches mejor tu ventana de siembra, por eso vas a poder sembrar un 15% más de hectáreas que otras marcas, sin paradas por reabastecimiento."
+            }
+        ],
+        "marketCap": "3.093MM",
+        "resultadoBruto": "423.436M",
+        "resultadoOperativo": "83.852M",
+        "resultadoNeto": "58.220M",
+        "ebitda": "150.127M",
+        "bpa": "0.58"
     }
 ]

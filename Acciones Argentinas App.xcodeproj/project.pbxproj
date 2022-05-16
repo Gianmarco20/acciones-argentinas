@@ -126,10 +126,10 @@
 			children = (
 				F46F8070282EDE2C00A8C39F /* AppTabView.swift */,
 				F46F8055282EB39A00A8C39F /* PanelLiderListView.swift */,
+				F4B8F4192831C85300BCA0BC /* PanelGeneralListView.swift */,
 				F46F8072282EDED100A8C39F /* SectoresListView.swift */,
 				F46F8074282EE82C00A8C39F /* PerfilEmpresaView.swift */,
 				F410179B282F5B560072CF01 /* PerfilProductoView.swift */,
-				F4B8F4192831C85300BCA0BC /* PanelGeneralListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

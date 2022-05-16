@@ -21,7 +21,8 @@ struct PerfilProductoView: View {
                     Image(activo.currentProduct!.imagen)
                         .resizable()
                         .cornerRadius(20)
-                        .frame(width: 300, height: 300, alignment: .center)
+                        .scaledToFit()
+                        .padding(.bottom)
                     Text(activo.currentProduct!.descripcion)
                 }
                 .padding()

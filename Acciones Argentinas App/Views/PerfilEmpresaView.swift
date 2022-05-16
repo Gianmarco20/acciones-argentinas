@@ -152,6 +152,7 @@ struct PerfilEmpresaView: View {
                                         Image(producto.imagen)
                                             .resizable()
                                             .frame(width: 60, height: 60, alignment: .center)
+                                            .cornerRadius(20)
                                             .padding(.trailing)
                                         VStack(alignment: .leading) {
                                             Text(producto.nombre)
